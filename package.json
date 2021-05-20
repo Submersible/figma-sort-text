@@ -1,0 +1,20 @@
+{
+  "name": "figma-sort-text",
+  "version": "1.0.0",
+  "description": "Sort the lines in your text! 🗂📈🎉",
+  "keywords": ["figma"],
+  "homepage": "http://github.com/Submersible/figma-sort-text",
+  "bugs": {
+    "url" : "https://github.com/Submersible/figma-sort-text/issues",
+    "email" : "ryan@submersible.io"
+  },
+  "author": "Ryan Munro <ryan@submersible.io>",
+  "license": "MIT",
+  "main": "code.js",
+  "scripts": {
+    "build": "tsc -p tsconfig.json"
+  },
+  "devDependencies": {
+    "@figma/plugin-typings": "^1.23.0"
+  }
+}
